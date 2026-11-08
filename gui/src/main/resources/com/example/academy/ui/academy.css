@@ -1,0 +1,48 @@
+.root {
+    -fx-font-family: "Segoe UI", "DejaVu Sans", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f3f6fa;
+    -fx-accent: #137c8b;
+    -fx-focus-color: #137c8b;
+    -fx-faint-focus-color: #137c8b22;
+}
+.label { -fx-text-fill: #26364b; }
+.page-title { -fx-font-size: 27px; -fx-font-weight: bold; -fx-text-fill: #17263b; }
+.hero-title { -fx-font-size: 38px; -fx-font-weight: bold; -fx-text-fill: #17263b; }
+.eyebrow { -fx-font-size: 12px; -fx-font-weight: bold; -fx-text-fill: #137c8b; }
+.subtitle { -fx-text-fill: #607086; -fx-font-size: 14px; }
+.section-title { -fx-font-size: 18px; -fx-font-weight: bold; }
+.button {
+    -fx-background-color: #137c8b; -fx-text-fill: white;
+    -fx-background-radius: 8; -fx-padding: 11 18; -fx-cursor: hand;
+}
+.button:hover { -fx-background-color: #0e6370; }
+.button:focused { -fx-border-color: #0e6370; -fx-border-radius: 8; -fx-border-width: 2; }
+.button:disabled { -fx-opacity: 0.45; }
+.secondary-button { -fx-background-color: #e6edf4; -fx-text-fill: #26364b; }
+.secondary-button:hover { -fx-background-color: #d7e3ee; }
+.navigation-card {
+    -fx-background-color: white; -fx-background-radius: 14;
+    -fx-border-color: #dbe4ec; -fx-border-radius: 14; -fx-padding: 26;
+}
+.navigation-card:hover { -fx-background-color: #f4fbfc; -fx-border-color: #137c8b; }
+.card-number { -fx-text-fill: #137c8b; -fx-font-size: 14px; -fx-font-weight: bold; }
+.card-title { -fx-text-fill: #17263b; -fx-font-size: 21px; -fx-font-weight: bold; }
+.card-description { -fx-text-fill: #607086; -fx-font-size: 14px; }
+.form-card { -fx-padding: 24; -fx-background-color: white; }
+.text-field {
+    -fx-background-color: white; -fx-background-radius: 6;
+    -fx-border-color: #d1dce7; -fx-border-radius: 6; -fx-padding: 9 10;
+}
+.text-field:focused { -fx-border-color: #137c8b; }
+.text-field:disabled { -fx-opacity: 0.65; -fx-background-color: #eef2f6; }
+.table-view { -fx-background-color: white; -fx-border-color: #dbe4ec; -fx-padding: 0; }
+.table-view .column-header-background, .table-view .column-header { -fx-background-color: #e9f0f5; }
+.table-view .column-header { -fx-padding: 10 4; }
+.table-row-cell { -fx-cell-size: 40px; }
+.table-row-cell:odd { -fx-background-color: #f7fafc; }
+.table-row-cell:selected { -fx-background-color: #d8eef0; }
+.table-row-cell:selected .text { -fx-fill: #17263b; }
+.split-pane { -fx-background-color: transparent; -fx-padding: 0; }
+.split-pane-divider { -fx-background-color: #f3f6fa; -fx-padding: 0 8; }
+.scroll-pane, .scroll-pane > .viewport { -fx-background-color: white; }
